@@ -1,8 +1,20 @@
-<h1>Hello Guyz.</h1>
-<p>
-  This is Sadman Ahmed and you are welcome to my new pet project ,a blog site. Hope I will make it a better one in a few days. Keep connected
-</p>
+<div id="page-content">
+  <div class="container" id="home-container">
+    <div class="jumbotron text-center text-black-300">
+      <h1 class="display-5">Abir Blog</h1>
+      <p class="lead fontss">Hello Guyz.This is Sadman Ahmed and you are welcome to my new pet project ,a blog site. </p>
+      <hr class="my-4">
+      <p>Hope I will make it a better one in a few days. Keep connected</p>
+      <a class="btn btn-success btn-lg" href="#" role="button">Sign up!</a>
+    </div>
+  </div>
+</div>
 
-<%= link_to 'Articles listing', articles_path %> |
+<footer id="sticky-footer" class="py-4 bg-dark text-white">
+<div class="container text-center">
+    <small>Copyright &copy; Your Website</small>
+    <%= link_to 'Articles listing', articles_path %> |
 
-<%= link_to 'About page', about_path %>
+    <%= link_to 'About page', about_path %>
+  </div>
+</footer>
