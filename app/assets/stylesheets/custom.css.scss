@@ -1,13 +1,23 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 
-.navbar {
-  background-color: black;
+
+  .navbar {
+  background-color: black ;
 }
 
 .nav-link {
   color: black !important;
 }
+a {
+  color: #000; }
+
+a:visited {
+  color: #666; }
+
+a:hover {
+  color: #fff;
+  background-color: red; }
 
 #logo {
   float: left;
@@ -29,9 +39,6 @@
   background-size: cover;
   height: 425px;
 }
-.fontss{
-  font-size: 100%;
-}
 
 html,
 body {
@@ -46,4 +53,3 @@ body {
 #sticky-footer {
   flex-shrink: none;
 }
-
