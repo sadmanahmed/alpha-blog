@@ -3,11 +3,11 @@
 
 
   .navbar {
-  background-color: black ;
+  background-color: black !important ;
 }
 
 .nav-link {
-  color: black !important;
+  color: white !important;
 }
 a {
   color: #000; }
@@ -22,7 +22,7 @@ a:hover {
 #logo {
   float: left;
   font-size: 1.7em;
-  color: black;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
