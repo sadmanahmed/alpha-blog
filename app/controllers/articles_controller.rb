@@ -62,7 +62,7 @@ private
 
   def require_same_user
     if current_user != @article.user
-      flash[:alert] = "You cam only edit and delete your own articles"
+      flash[:alert] = "You can only edit and delete your own articles"
       redirect_to @article
     end
   end
